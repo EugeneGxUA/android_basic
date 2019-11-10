@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+<!--    <item-->
+<!--        android:id="@+id/action_language"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/action_language"-->
+<!--        app:showAsAction="never"/>-->
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_language_uk"
+            android:orderInCategory="100"
+            android:title="@string/action_language_uk"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/action_language_ru"
+            android:orderInCategory="100"
+            android:title="@string/action_language_ru"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/action_language_en"
+            android:orderInCategory="100"
+            android:title="@string/action_language_en"
+            app:showAsAction="never"/>
+
+    </group>
+
+</menu>
